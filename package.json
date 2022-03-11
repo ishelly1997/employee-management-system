@@ -1,0 +1,20 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishelly1997/employee-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishelly1997/employee-management-system/issues"
+  },
+  "homepage": "https://github.com/ishelly1997/employee-management-system#readme"
+}
