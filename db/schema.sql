@@ -5,15 +5,15 @@ CREATE DATABASE employee_DB;
 USE employee_DB;
 
 CREATE TABLE department (
-  id INT NOT NULL AUTO_INCREMENT,
-  department_name VARCHAR(45) NOT NULL,
+  id INT AUTO_INCREMENT NOT NULL,
+  department_name VARCHAR(30) NOT NULL,
   PRIMARY KEY (id)
 );
 
 CREATE TABLE role (
   id INT NOT NULL AUTO_INCREMENT,
   title VARCHAR(45) NULL,
-  salary DECIMAL(10.3) NULL,
+  salary DECIMAL NULL,
   department_id INT NULL,
   PRIMARY KEY (id)
 );

@@ -1,7 +1,7 @@
 /*sample data to add*/
 USE employee_DB
 
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES ("accounting"),
        ("human resources"),
        ("engineering"),
